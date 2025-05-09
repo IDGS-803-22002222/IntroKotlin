@@ -10,4 +10,14 @@ fun main(){
         println("No debe de pagar inpuestos")
     }
 
+
+
+
+    val mes="1"
+    when(mes){
+        "1" -> println("enero")
+        "2" -> println("febrero")
+
+    }
+
 }
