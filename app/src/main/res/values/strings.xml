@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">intro_Kotlin</string>
+    <string name="hola_mundo">Hola mundo</string>
+    <string name="nombre">Nombre: </string>
 </resources>
