@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".practica4.ArchivosActivity">
+
+
+    <EditText
+        android:layout_width="376dp"
+        android:layout_height="79dp"
+        android:id="@+id/inputText"
+        android:hint="Escribe algo"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/saveButton"
+        android:hint="Guardar"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/readButton"
+        android:text="leer"/>
+
+
+    <EditText
+        android:layout_width="378dp"
+        android:layout_height="98dp"
+        android:id="@+id/outputText"
+        android:paddingTop="16dp"
+        android:inputType="textMultiLine"
+        android:text="Aqui se mostrar el texto"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnBorrar"
+        android:text="borrar"
+        />
+
+</LinearLayout>
